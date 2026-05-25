@@ -1,0 +1,6 @@
+# GitHub Pages configuration
+# No Jekyll processing needed — this is a static HTML site
+# The line below tells GitHub Pages to serve files as-is
+
+exclude:
+  - README.md

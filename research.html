@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Bishal Samanta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@300;400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">BS</a>
+    <ul class="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="cv.html">CV</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Research</h1>
+      <p class="page-subtitle">Computational approaches to biological discovery</p>
+    </section>
+
+    <!-- CURRENT -->
+    <section class="section">
+      <h2 class="section-title">Current Work</h2>
+
+      <div class="research-card featured">
+        <div class="rc-meta">
+          <span class="rc-tag">Active</span>
+          <span class="rc-period">May 2026 – Present</span>
+        </div>
+        <h3>Unsupervised Representation Learning for 3D Morphological Analysis</h3>
+        <p class="rc-affil">Theory@EMBL Fellow · European Molecular Biology Laboratory, Heidelberg</p>
+        <p>
+          Developing a modality-agnostic deep learning framework for quantitative morphological analysis
+          of ultrastructure expansion microscopy (U-ExM) data — without manual segmentation or labeled training data.
+          The approach uses variational autoencoders and self-supervised architectures to extract
+          morphological features directly from 3D image volumes, enabling large-scale phenotyping of
+          centrin structural diversity across free-living unicellular eukaryotes distributed throughout the tree of life.
+        </p>
+        <div class="rc-tags">
+          <span>VAEs</span><span>Self-supervised Learning</span><span>3D Microscopy</span><span>U-ExM</span><span>PyTorch</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAST POSITIONS -->
+    <section class="section">
+      <h2 class="section-title">Past Research Experience</h2>
+
+      <div class="research-card">
+        <div class="rc-meta">
+          <span class="rc-period">Jan 2025 – Apr 2026</span>
+        </div>
+        <h3>Transcriptomics & Structural Biology Integration</h3>
+        <p class="rc-affil">Student Research Assistant (HiWi) · Max Planck Institute for Multidisciplinary Sciences, Göttingen</p>
+        <p>
+          Engineered automated protein structure prediction pipelines with AlphaFold to evaluate
+          functional impacts of transcriptomic changes. Performed comprehensive analysis of 3′ UTR
+          regulatory regions during oocyte maturation — integrating motif discovery, RNA secondary
+          structure prediction, and pathway enrichment analysis.
+        </p>
+        <div class="rc-tags">
+          <span>AlphaFold</span><span>Transcriptomics</span><span>3′ UTR Biology</span><span>Multi-omics</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-meta">
+          <span class="rc-period">Oct – Dec 2025</span>
+        </div>
+        <h3>RNA 3D Structure Prediction Meta-Server</h3>
+        <p class="rc-affil">ERASMUS+ Research Intern · IIMCB Warsaw, Poland</p>
+        <p>
+          Built a meta-server architecture integrating multiple deep learning models (RosettaFoldNA, DRFold2)
+          for RNA 3D structure prediction via ensemble approaches. Implemented Python-based pipeline scripts
+          merging multi-tool predictions into composite structural inputs for SimRNA. Optimized
+          computational workflows with parallel computing, reducing processing time by 40%.
+        </p>
+        <div class="rc-tags">
+          <span>RosettaFoldNA</span><span>DRFold2</span><span>SimRNA</span><span>RNA Structure</span><span>HPC</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-meta">
+          <span class="rc-period">May – Jul 2023</span>
+        </div>
+        <h3>Explainable ML for Antibiotic Resistance Prediction</h3>
+        <p class="rc-affil">Bioinformatics Research Intern · University of Delhi, India</p>
+        <p>
+          Developed a production-ready machine learning pipeline for antibiotic resistance prediction
+          (90%+ accuracy). Implemented SHAP-based model interpretability to identify key genomic features
+          driving resistance, improving clinical applicability. Published first-author research in
+          Bioinformatics Advances (Oxford Academic).
+        </p>
+        <div class="rc-tags">
+          <span>SHAP</span><span>Scikit-learn</span><span>Genomics</span><span>Interpretable ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+      <h2 class="section-title">Research Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Allergenic Protein Classification</h3>
+          <p class="proj-period">Nov 2023 – Apr 2024 · NIT Durgapur</p>
+          <p>Ensemble voting classifier for allergenic vs non-allergenic protein discrimination using
+          physicochemical features, motif patterns, and secondary structure. Dataset curated from
+          COMPARE-2024, Allergen Online, and AlgPred 2.0.</p>
+          <div class="rc-tags">
+            <span>Ensemble Methods</span><span>Protein Features</span><span>CD-HIT</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>sRNA Prediction in <em>Salmonella enterica</em></h3>
+          <p class="proj-period">Aug – Oct 2023 · NIT Durgapur</p>
+          <p>Computational prediction of small non-coding RNAs using ViennaRNA feature extraction
+          and structured ML pipeline. Presented as poster at International Conference on Global
+          Disease Biology, 2024.</p>
+          <div class="rc-tags">
+            <span>ViennaRNA</span><span>ncRNA</span><span>Feature Engineering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Bishal Samanta · <a href="mailto:bsamanta674@gmail.com">bsamanta674@gmail.com</a> · Heidelberg, Germany</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

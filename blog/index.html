@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Bishal Samanta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@300;400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-brand">BS</a>
+    <ul class="nav-links">
+      <li><a href="../index.html">About</a></li>
+      <li><a href="../research.html">Research</a></li>
+      <li><a href="../publications.html">Publications</a></li>
+      <li><a href="index.html" class="active">Blog</a></li>
+      <li><a href="../cv.html">CV</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Blog</h1>
+      <p class="page-subtitle">Notes on computational biology, deep learning, and science</p>
+    </section>
+
+    <!-- WRITE YOUR OWN NOTE -->
+    <div class="blog-notice">
+      <p>
+        📝 <strong>For you:</strong> Add new posts by creating <code>blog/post-name.html</code> and linking them below.
+        Copy the template from <code>blog/template.html</code>.
+        You can paste content from LinkedIn posts or write directly here.
+      </p>
+    </div>
+
+    <section class="section">
+      <!-- SAMPLE POSTS — replace with real content -->
+      <div class="blog-list">
+
+        <article class="blog-card">
+          <div class="blog-card-meta">
+            <span class="blog-date">May 2026</span>
+            <span class="blog-tag">Research</span>
+          </div>
+          <h2><a href="post-embl-start.html">Starting my Theory@EMBL Fellowship</a></h2>
+          <p>
+            Reflections on joining EMBL Heidelberg and what it means to build unsupervised
+            representation learning frameworks for ultrastructure microscopy from scratch.
+          </p>
+          <a href="post-embl-start.html" class="read-more">Read more →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-meta">
+            <span class="blog-date">Dec 2025</span>
+            <span class="blog-tag">Methods</span>
+          </div>
+          <h2><a href="post-rna-metaserver.html">Building an RNA structure prediction meta-server</a></h2>
+          <p>
+            How I integrated RosettaFoldNA and DRFold2 into an ensemble pipeline at IIMCB Warsaw,
+            and what I learned about high-throughput structural bioinformatics.
+          </p>
+          <a href="post-rna-metaserver.html" class="read-more">Read more →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-meta">
+            <span class="blog-date">Aug 2025</span>
+            <span class="blog-tag">Learning</span>
+          </div>
+          <h2><a href="post-copenhagen-summer-school.html">Deep learning for bioinformatics — Copenhagen summer school</a></h2>
+          <p>
+            Key takeaways from the University of Copenhagen summer school: transformers for biological sequences,
+            VAEs, and graph neural networks in practice.
+          </p>
+          <a href="post-copenhagen-summer-school.html" class="read-more">Read more →</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Bishal Samanta · <a href="mailto:bsamanta674@gmail.com">bsamanta674@gmail.com</a> · Heidelberg, Germany</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Bishal Samanta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@300;400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">BS</a>
+    <ul class="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="cv.html" class="active">CV</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Curriculum Vitae</h1>
+      <div class="cv-download">
+        <a href="assets/pdf/cv.pdf" class="btn" download>Download PDF ↓</a>
+        <p class="cv-note">Place your PDF at <code>assets/pdf/cv.pdf</code></p>
+      </div>
+    </section>
+
+    <div class="cv-body">
+
+      <!-- Education -->
+      <section class="cv-section">
+        <h2>Education</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">2024 – 2026</span>
+            <span class="cv-location">Göttingen, Germany</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>MSc Computational Biology and Bioinformatics</h3>
+            <p class="cv-inst">University of Göttingen</p>
+            <p>GPA: 1.3 (German scale) · Relevant: Computational Methods in Biology, Data Analytics, Molecular Modeling, Advanced Bioinformatics</p>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">2020 – 2024</span>
+            <span class="cv-location">Durgapur, India</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>BTech Biotechnology</h3>
+            <p class="cv-inst">National Institute of Technology, Durgapur</p>
+            <p>GPA: 4.0 · First Class with Distinction · Relevant: Genetics, Molecular Biology, Programming for Bioinformatics, Biostatistics, Machine Learning</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="cv-section">
+        <h2>Research Experience</h2>
+
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">May 2026 – Present</span>
+            <span class="cv-location">Heidelberg, DE</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>Scientific Trainee — Theory@EMBL Fellow</h3>
+            <p class="cv-inst">European Molecular Biology Laboratory (EMBL)</p>
+            <ul>
+              <li>Developing unsupervised representation learning framework for 3D morphological analysis of U-ExM data</li>
+              <li>Designing modality-agnostic VAE and self-supervised architectures for universal feature extraction from 3D microscopy</li>
+              <li>Investigating centrin structural diversity across the tree of life using learned representations</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">Jan 2025 – Apr 2026</span>
+            <span class="cv-location">Göttingen, DE</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>Student Research Assistant (HiWi)</h3>
+            <p class="cv-inst">Max Planck Institute for Multidisciplinary Sciences · Supervisor: Dr. Peter Lenart</p>
+            <ul>
+              <li>Engineered AlphaFold-based protein structure prediction pipeline processing large-scale datasets with 95%+ accuracy</li>
+              <li>Analyzed 3′ UTR regulatory regions during oocyte maturation via motif discovery, RNA secondary structure, and pathway enrichment</li>
+              <li>Developed multi-omics integration workflows combining transcriptomics with structural biology</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">Oct – Dec 2025</span>
+            <span class="cv-location">Warsaw, PL</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>ERASMUS+ Research Intern</h3>
+            <p class="cv-inst">International Institute of Molecular and Cell Biology (IIMCB)</p>
+            <ul>
+              <li>Built meta-server for RNA 3D structure prediction integrating RosettaFoldNA and DRFold2</li>
+              <li>Reduced processing time by 40% through parallel computing strategies</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">May – Jul 2023</span>
+            <span class="cv-location">New Delhi, IN</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>Bioinformatics Research Intern</h3>
+            <p class="cv-inst">University of Delhi · Supervisor: Dr. Manish Kumar</p>
+            <ul>
+              <li>Developed ML pipeline for antibiotic resistance prediction (90%+ accuracy) with SHAP interpretability</li>
+              <li>Published in Bioinformatics Advances (Oxford Academic)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="cv-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-table">
+          <div class="skill-row">
+            <span class="skill-cat">Programming</span>
+            <span>Python, R, SQL, Java, C, MATLAB, Git, Jupyter</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">ML / AI</span>
+            <span>PyTorch, TensorFlow, VAEs, Transformers, GNNs, SHAP, Scikit-learn</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Bioinformatics</span>
+            <span>AlphaFold, RosettaFoldNA, DRFold2, ViennaRNA, SimRNA, BLAST, ExPASy</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Data Analysis</span>
+            <span>Pandas, NumPy, Seaborn, Plotly, Gene Ontology, Pathway Enrichment</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-cat">Bioimage</span>
+            <span>3D Microscopy, Expansion Microscopy (U-ExM), Unsupervised Feature Extraction</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Awards -->
+      <section class="cv-section">
+        <h2>Awards & Fellowships</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-meta">
+            <span class="cv-period">2026</span>
+          </div>
+          <div class="cv-entry-body">
+            <h3>Theory@EMBL Fellowship</h3>
+            <p class="cv-inst">European Molecular Biology Laboratory</p>
+            <p>Competitive fellowship supporting theoretical and computational research at EMBL Heidelberg</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Training -->
+      <section class="cv-section">
+        <h2>Training & Certifications</h2>
+        <div class="cv-entry simple">
+          <span class="cv-period">Aug 2025</span>
+          <div>
+            <strong>Summer School in Applied Deep Learning in Bioinformatics</strong>
+            <p>University of Copenhagen — Text Mining, Transformers, LLMs for Biological Sequences, VAEs, GNNs</p>
+          </div>
+        </div>
+        <div class="cv-entry simple">
+          <span class="cv-period">Jun 2023</span>
+          <div>
+            <strong>Bioinformatics and Biostatistics Certification</strong>
+            <p>Association for Computing Activities, IIT Kanpur</p>
+          </div>
+        </div>
+        <div class="cv-entry simple">
+          <span class="cv-period">Oct 2022</span>
+          <div>
+            <strong>NextGen Helper ENSEMBL Genome Browser and REST API Workshop</strong>
+            <p>EMBL-EBI Virtual Workshop</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Bishal Samanta · <a href="mailto:bsamanta674@gmail.com">bsamanta674@gmail.com</a> · Heidelberg, Germany</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
